@@ -12,17 +12,8 @@
 # general:
 #   level: error
 
-codescanning:
-  level: 
- 
-dependabot:
-  level: 
-
 licensing:
   conditions:
     ids:
       - GPL-2.0
       - GPL-3.0
-
-secretscanning:
-  level: 

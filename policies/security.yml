@@ -18,10 +18,5 @@ codescanning:
 dependabot:
   level: high
 
-licensing:
-  conditions:
-    ids:
-
-
 secretscanning:
   level: all
