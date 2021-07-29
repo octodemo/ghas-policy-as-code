@@ -13,10 +13,10 @@
 #   level: error
 
 codescanning:
-  level: error
+  level: 
  
 dependabot:
-  level: high
+  level: 
 
 licensing:
   conditions:
@@ -25,4 +25,4 @@ licensing:
       - GPL-3.0
 
 secretscanning:
-  level: all
+  level: 
