@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.session.LabelDebuggerTest" time="0.001" tests="5" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="testDisableIsFalse" classname="org.owasp.webgoat.session.LabelDebuggerTest" time="0"/>
+  <testcase name="testEnableIsTrue" classname="org.owasp.webgoat.session.LabelDebuggerTest" time="0"/>
+  <testcase name="testSetEnabledTrue" classname="org.owasp.webgoat.session.LabelDebuggerTest" time="0"/>
+  <testcase name="testSetEnabledFalse" classname="org.owasp.webgoat.session.LabelDebuggerTest" time="0"/>
+  <testcase name="testSetEnabledNullThrowsException" classname="org.owasp.webgoat.session.LabelDebuggerTest" time="0"/>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.xss.StoredXssCommentsTest" time="1.704" tests="3" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="success" classname="org.owasp.webgoat.xss.StoredXssCommentsTest" time="1.532"/>
+  <testcase name="failure" classname="org.owasp.webgoat.xss.StoredXssCommentsTest" time="0.016"/>
+  <testcase name="isNotEncoded" classname="org.owasp.webgoat.xss.StoredXssCommentsTest" time="0.016"/>
+</testsuite>

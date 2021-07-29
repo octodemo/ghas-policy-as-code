@@ -1,0 +1,23 @@
+name: Compliance
+
+on:
+  push:
+    branches: [ main, master, develop, release-* ]
+  workflow_dispatch:
+
+jobs:
+  # Code Scanning Steps
+  # ...
+  compliance:
+    runs-on: ubuntu-latest
+    # [optional] Run this job after a Code Scanning job
+    # needs:
+    #   - codeql
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Advance Security Compliance Action
+        uses: GeekMasher/advanced-security-compliance@fix-github-policy
+        with:
+          token: ${{ secrets.OCTODEMOBOT_SECURITY_AND_SOFTWARE_COMPOSITION_TOKEN }}
+          argvs: --debug

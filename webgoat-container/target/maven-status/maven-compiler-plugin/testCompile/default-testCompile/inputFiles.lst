@@ -1,0 +1,17 @@
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/assignments/AssignmentEndpointTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/TestApplication.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/plugins/PluginTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/users/UserValidatorTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/users/UserTrackerRepositoryTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/users/UserServiceTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/service/HintServiceTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/session/LabelDebuggerTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/util/LabelManagerImplTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/plugins/LessonTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/session/LessonTrackerTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/session/CourseTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/service/ReportCardServiceTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/service/LabelServiceTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/service/LessonProgressServiceTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/users/UserRepositoryTest.java
+/Users/moose/ghas-dev/ghas-policy-as-code/webgoat-container/src/test/java/org/owasp/webgoat/service/LessonMenuServiceTest.java

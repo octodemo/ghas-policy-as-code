@@ -1,4 +1,4 @@
-name: License Workflow
+name: Security Workflow
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
+      
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v1
       with:
@@ -36,7 +36,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.11
-
+    
     - name: Build with Maven
       if: matrix.language == 'java'
       run: mvn -B package --file pom.xml
@@ -79,5 +79,5 @@ jobs:
       uses: GeekMasher/advanced-security-compliance@develop
       with:
         token: ${{ secrets.OCTODEMOBOT_SECURITY_AND_SOFTWARE_COMPOSITION_TOKEN }}
-        policy: octodemo/ghas-policy-as-code
-        policy-path: policies/license.yml
+        policy: GeekMasher/security-queries
+        policy-path: policies/default.yml

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.owasp.webgoat.service.HintServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.014 s - in org.owasp.webgoat.service.HintServiceTest

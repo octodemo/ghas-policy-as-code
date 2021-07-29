@@ -1,0 +1,28 @@
+
+## Security Levels
+# - critical
+# - high
+# - error
+# - medium
+# - moderate
+# - low
+# - warning
+# - notes
+
+# general:
+#   level: error
+
+codescanning:
+  level: error
+ 
+dependabot:
+  level: high
+
+licensing:
+  conditions:
+    ids:
+      - GPL-2.0
+      - GPL-3.0
+
+secretscanning:
+  level: all
