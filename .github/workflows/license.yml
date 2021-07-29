@@ -81,3 +81,4 @@ jobs:
         token: ${{ secrets.OCTODEMOBOT_SECURITY_AND_SOFTWARE_COMPOSITION_TOKEN }}
         policy: octodemo/ghas-policy-as-code
         policy-path: policies/license.yml
+        argvs: '--disable-dependabot --disable-secret-scanning --disable-code-scanning'
