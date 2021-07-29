@@ -79,5 +79,5 @@ jobs:
       uses: GeekMasher/advanced-security-compliance@develop
       with:
         token: ${{ secrets.OCTODEMOBOT_SECURITY_AND_SOFTWARE_COMPOSITION_TOKEN }}
-        policy: GeekMasher/security-queries
+        policy: octodemo/ghas-policy-as-code
         policy-path: policies/default.yml
