@@ -59,7 +59,7 @@ jobs:
       if: ${{ github.event_name == 'pull_request' }}
 
     - name: Run OSSAR
-      uses: github/ossar-action@v2
+      uses: github/ossar-action@v2.0.0
       id: ossar
 
     - name: Upload OSSAR results
